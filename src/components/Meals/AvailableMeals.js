@@ -7,25 +7,25 @@ const DUMMY_MEALS = [
       id: 'm1',
       name: 'Dosa',
       description: 'Crispy, savory, slightly tangy delight!',
-      price: 15.99,
+      price: 45.99,
     },
     {
       id: 'm2',
       name: 'Chicken Biryani',
       description: 'Rich, aromatic, spicy, tender indulgence.',
-      price: 22.99,
+      price: 249.99,
     },
     {
       id: 'm3',
       name: 'Double ka Meeta',
       description: 'Sweet, creamy, bread-based dessert delight.',
-      price: 12.99,
+      price: 119.99,
     },
     {
       id: 'm4',
       name: 'Samosa',
       description: 'Crispy, savory, spiced potato pastry....',
-      price: 18.99,
+      price: 49.99,
     },
   ];
 
