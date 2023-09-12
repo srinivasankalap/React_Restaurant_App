@@ -1,0 +1,19 @@
+import Image from '../../Assets/picture.png';
+import classes from './Header.module.css';
+import HeaderCartButton from './HeaderCartButton';
+
+const Header=(props)=>{
+    return (
+        <>
+            <header className={classes.header}>
+                <h1>Jwiggy</h1>
+                <HeaderCartButton/>
+            </header>
+            <div className={classes['main-image']}>
+                <img src={Image} alt='Delicious Food!'/>
+            </div>
+        </>
+    )
+}
+
+export default Header;
